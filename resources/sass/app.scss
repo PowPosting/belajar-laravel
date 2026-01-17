@@ -1,0 +1,16 @@
+// Bootstrap 5
+@import 'bootstrap/scss/bootstrap';
+
+// Variables (harus paling atas)
+@import 'variables';
+
+// Mixins (comment dulu kalau belum ada)
+// @import 'mixins';
+
+// Components
+@import 'navbar';
+@import 'sidebar';
+@import 'login';
+
+// Custom utilities
+@import 'custom';
