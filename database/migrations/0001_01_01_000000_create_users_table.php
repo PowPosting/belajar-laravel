@@ -12,6 +12,7 @@ return new class extends Migration {
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
+            $table->string('name_lengkap');
             $table->string('username');
             $table->string('password');
             $table->rememberToken();

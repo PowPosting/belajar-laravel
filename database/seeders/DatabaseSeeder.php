@@ -73,36 +73,42 @@ class DatabaseSeeder extends Seeder
 
         // Create users dengan role masing-masing
         $userAdminOryza = User::factory()->create([
+            'name_lengkap' => 'Admin Oryza',
             'username' => 'adminoryza',
             'password' => bcrypt('Admin123'),
         ]);
         $userAdminOryza->assignRole('Admin ORYZA');
 
         $userAdminClient = User::factory()->create([
+            'name_lengkap' => 'Admin Client',
             'username' => 'adminclient',
             'password' => bcrypt('Admin123'),
         ]);
         $userAdminClient->assignRole('Admin Client');
 
         $userFrontOffice = User::factory()->create([
+            'name_lengkap' => 'Front Office',
             'username' => 'frontoffice',
             'password' => bcrypt('Front123'),
         ]);
         $userFrontOffice->assignRole('Front Office');
 
         $userBackOffice = User::factory()->create([
+            'name_lengkap' => 'Back Office',
             'username' => 'backoffice',
             'password' => bcrypt('Back123'),
         ]);
         $userBackOffice->assignRole('Back Office');
 
         $userDokter = User::factory()->create([
+            'name_lengkap' => 'Dokter',
             'username' => 'dokter',
             'password' => bcrypt('Dokter123'),
         ]);
         $userDokter->assignRole('Dokter');
 
         $userPerawat = User::factory()->create([
+            'name_lengkap' => 'Perawat',
             'username' => 'perawat',
             'password' => bcrypt('Perawat123'),
         ]);

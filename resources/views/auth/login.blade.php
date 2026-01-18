@@ -14,7 +14,7 @@
 
 <body>
     <main>
-        <div class="login-container">
+        <div class="login-container" style="background-color: #FFFFFF;">
             <div class="image-illustration">
                 <img src="/images/medicine.png" alt="image-illustration" class="img-illustration">
             </div>
